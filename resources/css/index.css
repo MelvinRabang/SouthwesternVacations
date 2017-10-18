@@ -1,0 +1,26 @@
+.southwestern_index_maindiv {
+    height: 100%;
+}
+
+.southwestern_edit_paragraphs {
+    width: 70%;
+    float: left;
+}
+
+#contactButton {
+    width: 17%;
+    margin-top: 1%;
+    background-color: #FF4500;
+    color: white;
+}
+
+.dialogButtons {
+    background-color: #FF4500;
+    color: white;
+}
+
+.dialogHeader {
+    color: #8B4513;
+    text-align: center;
+    font-weight: bold;
+}

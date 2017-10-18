@@ -1,0 +1,43 @@
+.arizona_header_position {
+    margin-top: -1%;
+    margin-left: 3%;
+}
+
+.arizona_header_style {
+    color: #191970;
+}
+
+.arizona_mountain_image_position {
+    margin-top: 2%;
+}
+
+.arizona_mountain_div {
+    height: 30%;
+}
+
+.arizona_mountain_image_position {
+    width:31%;
+    position: relative;
+    float:left;
+    margin-left: 3%;
+    margin-top: 0.1%;
+    
+}
+
+.phoenixParagraph {
+    width:60%;
+    position: relative;
+    float:left;
+    height: 50%;
+}
+
+.sedonaParagraph {
+    margin-right: 10%;
+    height: 50%;
+}
+
+.positionMountainImage {
+    width:90%;
+}
+
+
