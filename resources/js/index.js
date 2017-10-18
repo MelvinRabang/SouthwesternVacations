@@ -16,13 +16,13 @@ $(document).ready(function() {
                 click: function() {
                     $(this).dialog("close");
                     clearDialogInputFields();
-                    
                 },
                 "id": "submitButton"
             }
         ]
     });
 
+    $('.ui-dialog').addClass("positionDialog");
     $(".ui-dialog-titlebar").removeClass("ui-widget-header");
     $(".ui-dialog-titlebar").addClass("dialogHeader");
     $("#cancelButton").removeClass('ui-state-default');
@@ -31,6 +31,7 @@ $(document).ready(function() {
     $("#submitButton").addClass('dialogButtons btn');
 
     $("#contactButton").click(function(){
+        $("#myForm").dialog();
         $("#myForm").dialog('open');
     });
 });
